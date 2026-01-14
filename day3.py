@@ -33,6 +33,7 @@ print(numlst.count(5))
 
 #Search and Sorting
 
+#6
 numlst=[0,1,1,2,3,4,5,5,5,6,7,8,8,9]
 to_fnd=int(input("Enter a Number to Found"))
 if to_fnd in numlst:
@@ -40,7 +41,7 @@ if to_fnd in numlst:
 else:
     print("Number not Present") 
 
-
+#7
 numlst=[7,8,5,4,7,8,9,3,2,1,5,64,7,8,8,9]
 lst=[0,1,2,3,4,5,6,7,8,9]
 print(numlst)
@@ -53,11 +54,13 @@ print(numlst)
 
 # Basic Tuple Operation
 
+#7
 tup=(1,2,3,4,5,6)
 print(tup[0])
 print(tup[-1])
 print(len(tup))
 
+#8
 fruit=("apple","Banana","Papaya","Orange")
 for i in fruit:
     print(i)
@@ -67,12 +70,13 @@ if f_name in fruit:
 else:
     print("Fruit Not Found")
 
+#9
 concat=tup+fruit
 print(concat)
 
 # tuple Methods
 
-
+#10
 numlst=(7,8,5,4,7,8,9,3,2,1,5,64,7,8,8,9)
 to_fnd=int(input("Enter a Number to Found"))
 if to_fnd in numlst:
@@ -88,6 +92,7 @@ for i in numlst:
 print(to_fnd,"Found", count,"Times")
 
 # Converstion and Nesting
+#11
 numtup=(7,8,5,4,7,8,9,3,2,1,5,64,7,8,8,9)
 print(numtup)
 numlst=list(numtup)
@@ -98,6 +103,7 @@ tup=tuple(numlst)
 print(type(tup))
 print(tup)
 
+#12
 tup2=((1,2,2),(3,4,5))
 for i in tup2:
     for y in i:
