@@ -1,29 +1,33 @@
 from numpy import average
 
-"""
 
 # Basic List Operations
 
+#1
 lst=[1,2,3,4,5]
 fst=lst[0]
 last=lst[-1]
 len=len(lst)
 print(fst,"\n",last,"\n",len)
 
+#2
 lst=[1,2,3,4,5]
 sum=sum(lst)
 print(sum)
 print(average(lst))
 
+#3
 fruit=["apple","Banana"]
 fruit.append("Orange")
 fruit.insert(1,"papaya")
 print(fruit)
 
+#4
 fruit.remove("Banana")
 fruit.pop()
 print(fruit)
 
+#5
 numlst=[0,1,1,2,3,4,5,5,5,6,7,8,8,9]
 print(numlst.count(5))
 
@@ -46,8 +50,6 @@ numlst.sort()
 print(numlst)
 numlst.sort(reverse=True)
 print(numlst)
-
-"""
 
 # Basic Tuple Operation
 
